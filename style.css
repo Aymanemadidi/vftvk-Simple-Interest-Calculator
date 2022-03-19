@@ -48,6 +48,10 @@ h1 {
     display: none;
 }
 
+#positive {
+    display: none;
+}
+
 #everyone {
     margin-top: 20px;
 }
