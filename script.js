@@ -20,6 +20,8 @@ function compute() {
     console.log(p.value);
     // debugger;
     if (Number(p.value) <= 0) {
+        alert("please enter a positive number");
+        document.getElementById("principal").focus();
         document.getElementById("result").style.display = "none";
         document.getElementById("interest").style.display = "none";
         document.getElementById("amount").style.display = "none";

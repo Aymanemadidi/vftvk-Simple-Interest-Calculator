@@ -1,13 +1,14 @@
 <html>
     <head>
     <link rel="stylesheet" href="style.css">
+    <title>Web App – Simple Interest Calculator</title>
     </head>
     <body>
         <div class="calculator-container">
             <h1>Simple Interest Calculator</h1>
 
             Amount <input type="number"  id="principal">  <br/>
-            Rate <input  type="range" min="0" max="30" step="0.1" value="0.5" value="3.5"  id="rate" oninput="amount.value=rate.value"> <div id="value-placeholder"></div>% <br/>
+            Rate <input  type="range" min="1" max="20" step="0.1" value="0.5" value="3.5"  id="rate" oninput="amount.value=rate.value"> <div id="value-placeholder"></div>% <br/>
             No. of Years <select type="number"  id="years">
             <option value="1">1</option>    
             <option value="2">2</option>    
@@ -28,7 +29,7 @@
             <div class="visibl" id="interest">at an interest rate of <span class="yellow" id="interest-value"></span>.</div>
             <div class="visibl" id="amount">You will receive an amount of <span class="yellow" id="amount-value"></span></div>
             <div class="visibl" id="year">in the year <span class="yellow" id="year-value"></span></div>
-            <div id="everyone">&#169; Everyone can get rich</div>
+            <div id="everyone">&#169; Everyone Can Get Rich</div>
 
         </div>
         <script src="script.js"></script>
